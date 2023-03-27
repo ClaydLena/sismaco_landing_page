@@ -1,10 +1,10 @@
 /********** Template CSS **********/
 :root {
-    --primary: #355EFC;
+    --primary: #7389AE;
     --secondary: #E93C05;
     --tertiary: #555555;
     --light: #DFE4FD;
-    --dark: #011A41;
+    --dark: #7389AE;
 }
 
 .back-to-top {
@@ -14,6 +14,7 @@
     bottom: 15px;
     z-index: 99;
 }
+
 
 h1,
 .h1,
@@ -39,6 +40,18 @@ h6,
     font-weight: 500 !important;
 }
 
+.text-primary-color{
+    color: #93a4c1 !important;
+}
+
+.btn-primary-color{
+    border-color: #93a4c1 !important;
+    background-color: #93a4c1 !important;
+    color: white !important;
+}
+.bg-primary-color{
+    background-color: #93a4c1 !important;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -226,7 +239,7 @@ h6,
 
 /*** Facts ***/
 .facts {
-    background: linear-gradient(rgba(53, 94, 252, .95), rgba(53, 94, 252, .95)), url(../img/bg.png);
+    background: linear-gradient(#93a4c1, #7389AE), url(../img/bg.png);
 }
 
 
